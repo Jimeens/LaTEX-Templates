@@ -1,4 +1,4 @@
-# Impression Template Documentation
+# Template Documentation
 
 This template was created based on the painting "Impression, soleil levant" by Claude Monet (1872). Some basic information should be clarified for better use.
 
@@ -21,4 +21,4 @@ All packages were placed in a separate file (`mypackages.sty`) for better organi
 
 If you are going to write your texts in Portuguese, go to the `mypackages.sty` file and change `\RequirePackage[english]{babel}` to `\RequirePackage[brazilian]{babel}` (line 19).
 
-That’s it! The template isn’t perfect, it has my workarounds, but it works nicely, hehe.
+That’s it! The template isn’t perfect, it has my workarounds, but it works nicely. For support or inquiries, lcsximenes@usp.br.
