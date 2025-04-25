@@ -1,3 +1,27 @@
+# Documentação do Template
+
+Este template foi criado baseado na pintura "Impression, soleil levant" do Claude Monet (1872). Algumas informações básicas devem ser deixadas mais claras para melhor uso.
+
+Em primeiro lugar, o compilador que eu utilizei é o XeLaTeX (provavelmente seja possível utilizar LuaLaTeX também, porém não acho necessário). O principal motivo de usar este compilador foi o fato de que eu queria utilizar a fonte **EB Garamond** com algumas opções extras e para isso era necessário utilizar o pacote `fontspec`, portanto o arquivo demora um pouco mais para compilar e consequentemente arquivos maiores devem ultrapassar o limite de compilação do Overleaf, de modo que eu recomendo fortemente que caso você queira utilizar esse template para escrever bastante, utilize ele localmente (VScode, etc), pois dessa forma não vai ter limite de tempo de compilação.
+
+Existem 7 cores personalizadas nesse template, em que 5 delas, quando juntas, formam a paleta de cor da pintura, então caso você queira utilizar alguma, elas são:MyGray
+- MyLightGray
+- MyLightBlue
+- MyDarkBlue
+- MyOrange
+
+Além da paleta do quadro, tem o MyWhite, que é a cor base das páginas e MyBlack, que é a cor principal do texto. Todas elas estão definidas a partir da linha 21 do arquivo `impression.cls`.
+
+Caso você tenha gostado do template e queira utilizar alguma outra arte, vou ensinar a fazer. Antes de trocar a imagem, você precisa deixar a arte nova com dimensões proporcionais à da pintura q eu utilizei, que é de 48 x 63 (em pixels ficou com 1601 x 1243), feito isso você faz upload da imagem dentro da pasta `Figures`, vai no arquivo `impression.cls` e substitui todos os `"Figures/Impression, soleil levant - Claude Monet.png"` para `"Figures/Nome da sua Imagem.png"` (usa o ctrl + F que fica mais fácil).
+
+Nas páginas de conteúdo, tem uma flor de baunilha que eu achei muito bonita e quis colocar no template, mas se você não gosta dela `D:` é só excluir a linha 85 do arquivo `impression.cls`.
+
+Todos os pacotes foram colocados em um arquivo separado (`mypackages.sty`) pra ficar mais organizado, então recomendo colocar mais pacotes nesse arquivo, mas é apenas pra organização, você pode colocar tanto no `main.tex` quanto no `impression.cls` que não vai mudar nada.
+
+É isso, o template não é perfeito, tem minhas gambiarras, mas funciona bonitinho. Qualquer coisa, lcsximenes@usp.br.
+
+
+
 # Template Documentation
 
 This template was created based on the painting "Impression, soleil levant" by Claude Monet (1872). Some basic information should be clarified for better use.
@@ -13,7 +37,7 @@ There are 7 custom colors in this template, 5 of which, when combined, form the 
 
 In addition to the painting’s palette, there are MyWhite, which is the base color of the pages, and MyBlack, which is the main text color. All of them are defined starting from line 21 of the `impression.cls` file.
 
-If you liked the template and want to use a different artwork, I’ll explain how to do it. Before swapping the image, you need to adjust the new artwork to have proportions similar to the painting I used, which is 48 x 63 (in pixels, it’s 1601 x 1243). Once that’s done, upload the image to the `Figures` folder, go to the `impression.cls` file, and replace all instances of "Figures/Impression, soleil levant - Claude Monet.png" with "Figures/Your Image Name.png" (using Ctrl + F makes it easier).
+If you liked the template and want to use a different artwork, I’ll explain how to do it. Before swapping the image, you need to adjust the new artwork to have proportions similar to the painting I used, which is 48 x 63 (in pixels, it’s 1601 x 1243). Once that’s done, upload the image to the `Figures` folder, go to the `impression.cls` file, and replace all instances of `"Figures/Impression, soleil levant - Claude Monet.png"` with `"Figures/Your Image Name.png"` (using Ctrl + F makes it easier).
 
 On the content pages, there’s a vanilla flower that I found very beautiful and wanted to include in the template. But if you don’t like it `D:`, you can simply delete line 85 of the `impression.cls` file.
 
