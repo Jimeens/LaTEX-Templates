@@ -1,3 +1,5 @@
+<img src="demo.png">
+
 # [PT/BR] Documentação do Template
 
 Este template foi criado baseado na pintura "Impression, soleil levant" do Claude Monet (1872). Algumas informações básicas devem ser deixadas mais claras para melhor uso.
