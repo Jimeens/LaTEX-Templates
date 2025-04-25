@@ -1,4 +1,4 @@
-# Documentação do Template
+# [PT/BR] Documentação do Template
 
 Este template foi criado baseado na pintura "Impression, soleil levant" do Claude Monet (1872). Algumas informações básicas devem ser deixadas mais claras para melhor uso.
 
@@ -22,7 +22,7 @@ Todos os pacotes foram colocados em um arquivo separado (`mypackages.sty`) pra f
 
 
 
-# Template Documentation
+# [EN] Template Documentation
 
 This template was created based on the painting "Impression, soleil levant" by Claude Monet (1872). Some basic information should be clarified for better use.
 
